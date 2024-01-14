@@ -1,0 +1,23 @@
+/* * {
+    border: 2px solid red;
+} */
+
+.header {
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+    background-color: #1F2937;
+}
+
+ul{
+    list-style-type: none;
+  }
+  
+  li{
+    display: inline-block;
+  }
+
+  a {
+    font-size: 18px;
+    color: #E5E7EB;
+  }
