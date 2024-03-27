@@ -5,17 +5,38 @@
 body, html {
   height: 100%;
   margin: 0;
-  min-height: 100vh;
+}
+
+header, .hero, .projects, .inspiration, .cta, footer {
+  padding: 0 10%;
+}
+header, .hero, footer {
+  background-color: #1F2937;
 }
 
 header{
-  background-color: #1F2937;
+  font: 18px #E5E7EB;
+  padding: 0 10% 10px 10%;
 }
 
 .hero {
-  background-color: #1F2937;
-  color: white;
-  padding: 50px 0;
+  display: flex;
+  padding: 0 10%;
+}
+
+.hero .container .container-item{
+  width: 50%;
+}
+.hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #E5E7EB;
 }
 
 header img {
@@ -24,25 +45,52 @@ header img {
 }
 
 .projects {
+  display: flex;
   background-color: #ffffff;
-  padding: 50px 0;
+  padding: 0 10%;
+}
+
+body h2 {
+  text-align: center;
 }
 
 .inspiration {
   background-color: #E5E7EB;
   color: #1F2937;
-  padding: 50px 0;
 }
 
 .cta{
   background-color: #3882F6;
   color: #1F2937;
-  padding: 50px 0;
 }
 
 footer {
-  background-color: #1F2937;
   color: white;
   max-height: .1rem;
   text-align: center;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  font-size: 18px;
+}
+
+li a {
+  color: #E5E7EB;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-card {
+  background-color: #F9FAF8;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  width: 30%;
 }
