@@ -1,23 +1,48 @@
-/* * {
-    border: 2px solid red;
+/* *{
+  border: 2px solid red;
 } */
 
-.header {
-    display: flex;
-    font-size: 24px;
-    color: #f9faf8;
-    background-color: #1F2937;
+body, html {
+  height: 100%;
+  margin: 0;
+  min-height: 100vh;
 }
 
-ul{
-    list-style-type: none;
-  }
-  
-  li{
-    display: inline-block;
-  }
+header{
+  background-color: #1F2937;
+}
 
-  a {
-    font-size: 18px;
-    color: #E5E7EB;
-  }
+.hero {
+  background-color: #1F2937;
+  color: white;
+  padding: 50px 0;
+}
+
+header img {
+  width: 100px;
+  margin-left: 0;
+}
+
+.projects {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+.inspiration {
+  background-color: #E5E7EB;
+  color: #1F2937;
+  padding: 50px 0;
+}
+
+.cta{
+  background-color: #3882F6;
+  color: #1F2937;
+  padding: 50px 0;
+}
+
+footer {
+  background-color: #1F2937;
+  color: white;
+  max-height: .1rem;
+  text-align: center;
+}
