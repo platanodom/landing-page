@@ -7,8 +7,10 @@ body, html {
   margin: 0;
 }
 
-header, .hero, .projects, .inspiration, .cta, footer {
+.hero, .projects, .inspiration, .cta{
   padding: 0 10%;
+  margin: 0;
+
 }
 header, .hero, footer {
   background-color: #1F2937;
@@ -17,11 +19,14 @@ header, .hero, footer {
 header{
   font: 18px #E5E7EB;
   padding: 0 10% 10px 10%;
+  height: 15%;
+
 }
 
 .hero {
   display: flex;
   padding: 0 10%;
+  height: 38%;
 }
 
 .hero .container .container-item{
@@ -47,8 +52,8 @@ header img {
 .projects {
   display: flex;
   background-color: #ffffff;
-  padding: 0 10%;
 }
+
 
 body h2 {
   text-align: center;
@@ -57,17 +62,36 @@ body h2 {
 .inspiration {
   background-color: #E5E7EB;
   color: #1F2937;
+  
 }
 
+.inspiration h2, .inspiration p{
+  margin: 0;
+}
 .cta{
-  background-color: #3882F6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
   color: #1F2937;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.cta .container {
+  background-color: #3882F6;
+  border-radius: 10px;
 }
 
 footer {
   color: white;
-  max-height: .1rem;
+  height: 5%;
   text-align: center;
+}
+
+footer p{
+  margin: 0;
+
 }
 
 ul {
