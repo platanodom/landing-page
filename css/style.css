@@ -51,6 +51,7 @@ header img {
 
 .projects {
   display: flex;
+  flex-direction: column;
   background-color: #ffffff;
 }
 
@@ -109,6 +110,12 @@ li a {
 .container {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.projects .container {
+  text-align: center;
+  justify-content: center;
 }
 
 .project-card {
@@ -117,4 +124,12 @@ li a {
   padding: 20px;
   margin: 20px;
   width: 30%;
+  flex: 0 1 calc(25% - 20px); /* Adjust width as needed, considering margins */
+  margin: 10px; /* Adjust margin as needed */
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
 }
