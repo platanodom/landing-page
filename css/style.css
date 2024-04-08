@@ -69,14 +69,9 @@ body h2 {
 .inspiration h2, .inspiration p{
   margin: 0;
 }
+
 .cta{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  justify-items: center;
-  color: #1F2937;
-  border-radius: 10px;
-  width: 50%;
+  padding-top: 2%;
 }
 
 .cta .container {
@@ -132,4 +127,10 @@ li a {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+}
+
+section.cta{
+  display: flex; /* Add this line */
+  align-items: center;
+  justify-content: center;
 }
